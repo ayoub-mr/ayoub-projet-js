@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML</title>
+    <link rel="stylesheet" href="about.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.cdnfonts.com/css/spacetype" rel="stylesheet" />
+
+    <style></style>
+    <body background="IMGG.jpg">
+      <section
+        class="vh-100 gradient-custom"
+        style="background-color: rgb(41, 57, 194);"
+      >
+        <div class="topnav" style="width: auto; background-color: rgba(221, 52, 52, 0.748)">
+          <a href="index.html">Home</a>
+          <a href="courses.html">Courses</a>
+          <a href="login.html">Log out</a>
+        </div>
+        <div class="justify-content-center align-items-center">
+          <div class="container">
+            <div class="overlay">
+              <div class="gogo" id="d2">
+                <h1>EAT()/SLEEP()/CODE()/REPEAT()</h1>
+                <br />
+              </div>
+              <div class="gaga" id="d3">
+                <h3>While you are alive</h3>
+                <br />
+              </div>
+              <div id="d4">
+                <button
+                  type="button"
+                  class="btn btn-primary btn-lg"
+                  id="indexbtn1"
+                  onclick="window.location.href='courses.html'"
+                >
+                  Course List
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h1 id="d6"><span class="slash">/</span>Courses</h1>
+          </div>
+          <div
+            class="cards"
+            style="
+              max-width: 1100px;
+              width: 100%;
+              margin: auto;
+              display: flex;
+              justify-content: space-around;
+            "
+          ><div class="section-center">
+            <div class="b-game-card  " style="width: 20rem; margin-top: 5rem; height:12rem ;">
+                <img class="card-img-top " src="assets/images/cssAnimation.png" alt="" >
+                <div class="card-body">
+                    <div class="card-text"><p style="text-align: center;">Css Animation<br><strong>$19.9</strong></p></div>
+                </div>
+            </div>
+          </div></div>
+        </div>
+      </section>
+      <script>
+        var fullhtml = '';
+        var menu = [{
+    id: 1,
+    image: 'assets/images/cssAnimation.png',
+    title: 'what is javascript?',
+    category: 'JS',
+    price: 9.9
+},
+{ 
+    id: 2,
+    image: 'assets/images/htmlBasics.PNG',
+    title: 'basics of HTML',
+    category: 'HTML',
+    price: 5.9
+},
+{
+    id: 3,
+    image: 'assets/images/htmlElements.png',
+    title: 'HTML elements and tags',
+    category: 'HTML',
+    price: 9.9
+},
+{
+
+    id: 4,
+    image: 'assets/images/cssSelectors.jpg',
+    title: 'CSS selectors',
+    category: 'CSS',
+    price: 69.9
+},
+{
+    id: 5,
+    image: 'assets/images/javascriptDef.png',
+    title: 'variables and data type of javascript',
+    category: 'JS',
+    price: 19.9
+},
+{
+    id: 6,
+    image: 'assets/images/htmlTags.png',
+    title: 'Javascript operators and conditions',
+    category: 'JS',
+    price: 29.9
+},
+{
+    id: 7,
+    image: 'assets/images/htmlAttrVal.jpg',
+    title: 'HTML attributes and values',
+    category: 'HTML',
+    price: 19.9
+},
+{
+    id: 8,
+    image: 'assets/images/cssProperties.png',
+    title: 'CSS properties',
+    category: 'CSS',
+    price: 29.9
+},
+{
+    id: 9,
+    image: 'assets/images/javascriptObjects.png',
+    title: 'Javascript objects and arrays',
+    category: 'JS',
+    price: 39.9
+},
+{
+    id: 10,
+    image: 'assets/images/cssMesures.png',
+    title: 'mesures and unites of CSS',
+    category: 'CSS',
+    price: 19.9
+},
+{
+    id: 11,
+    image: 'assets/images/cssAnimation.png',
+    title: 'CSS animations',
+    category: 'CSS',
+    price: 19.9
+},
+{
+    id: 12,
+    image: 'assets/images/javascriptFunctions.png',
+    title: 'The basics of javascript',
+    category: 'JS',
+    price: 29.9
+},
+{
+    id: 13,
+    image: 'assets/images/javascriptEvents.png',
+    title: 'javascript events',
+    category: 'JS',
+    price: 59.9
+},
+{
+    id: 14,
+    image: 'assets/images/cssColors.png',
+    title: 'css colors',
+    category: 'CSS',
+    price: 29.9
+},
+{
+    id: 15,
+    image: 'assets/images/phpBasics.png',
+    title: 'getting started with php',
+    category: 'PHP',
+    price: 15.9
+},
+{
+    id: 16,
+    image: 'assets/images/javascriptFunctions2.png',
+    title: 'functions and loops with javascript',
+    category: 'JS',
+    price: 19.9
+},
+{
+    id: 17,
+    image: 'assets/images/phpDataBase.png',
+    title: 'connecting to database using PHP',
+    category: 'PHP',
+    price: 29.9
+},
+{
+    id: 18,
+    image: 'assets/images/phpCRUD.png',
+    title: 'manipulating crud using php',
+    category: 'PHP',
+    price: 45.9
+},
+{
+    id: 19,
+    image: 'assets/images/javascriptDOM.png',
+    title: 'DOM the power of javascript',
+    category: 'JS',
+    price: 23.9
+}
+];
+        for (var i = 0; i <= 2; i++) {
+          let x = Math.floor(Math.random() * 10);
+
+          let html = `
+            <div class="card" style="width: 18rem;">
+                          <img src="${menu[x].image}" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">${menu[x].title}</h5>
+                            <p>$${menu[x].price}</p>
+                          </div>
+                        </div>`;
+          fullhtml = fullhtml + html;
+        }
+
+        document.querySelector('.cards').innerHTML = fullhtml;
+      </script>
+    </body>
+  </head>
+</html>

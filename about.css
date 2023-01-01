@@ -1,0 +1,80 @@
+
+.topnav {
+    background-color: rgb(203, 31, 31);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  #d2{
+    text-align: center; 
+        font-family:fantasy,sans-serif;
+        font-size: larger;
+        color: #ddd;
+  }
+#img{
+    background-image: url(IMGG.jpg);
+}
+#d3{
+    text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        color: #ddd;
+  }
+  #d4{
+    text-align: center;  
+  }
+  #d6{
+    text-align: center;
+    color: rgb(25, 231, 111);
+        
+  }
+  .back-container {
+    background-color: transparent;
+    padding: 100px 0;
+    background-repeat: norepeat;
+    background-position: center;
+    text-align: center;
+    color: #5998d2;
+    font-size: 1.7em;
+    font-style: bold;
+    
+  }
+  
+  .overlay {
+    margin:  50px;
+    padding: 110px;
+    text-align: center;
+    background-color: #3554a344;
+    background: rgba(199, 190, 29, 0.5);
+    border-radius: 5px;
+  }
+  h1,h3{
+    font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #9a3c3c, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  }
+
+
